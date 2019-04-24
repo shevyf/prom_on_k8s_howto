@@ -82,13 +82,13 @@ data:
           action: replace
           target_label: kubernetes_pod_name
 
-    # remote storage details. For PromLTS accounts these can be
-    # found at https://app.promlts.com/quickstart/
+    # remote storage details. For Metricfire accounts these can be
+    # found at https://app.metricfire.com/quickstart/
     
     remote_read:
-        - url: https://remote.promlts.com/read
-          bearer_token: <PromLTS-API-Key>
+        - url: https://remote.metricfire.com/read
+          bearer_token: <metricfire-API-Key>
 
     remote_write:
-        - url: https://remote.promlts.com/write
-          bearer_token: <PromLTS-API-Key>
+        - url: https://remote.metricfire.com/write
+          bearer_token: <metricfire-API-Key>
